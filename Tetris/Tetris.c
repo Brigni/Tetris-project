@@ -108,7 +108,7 @@ int main(int argc, char **argv, char **environ)
                     {
                         currTetrominoY++;
                         float dropSpeed;
-                        if (score > 1200) // CHANGE !!!
+                        if (score < 1200)
                         {
                             dropSpeed = score * 0.000583f;
                         }
