@@ -1,7 +1,7 @@
 #include "raylib.h"
 
-#define LINE_BG_COUNTER 1.0f
-#define LINE_WHITE_COUNTER 0.5f
+#define LINE_BG_COUNTER 0.6f
+#define LINE_WHITE_COUNTER 0.3f
 
 void ResetLines(int startLineY, const Sound sound);
 int CheckIfLineIsCompleted(const int lineY);
